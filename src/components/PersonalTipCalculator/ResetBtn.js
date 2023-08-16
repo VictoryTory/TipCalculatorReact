@@ -1,10 +1,11 @@
 import React from "react";
-import {Box, Button, Stack, styled, TextField} from '@mui/material';
-import {hover} from "@testing-library/user-event/dist/hover";
+import {Box, Button, styled} from '@mui/material';
 
 const ResetBtn = styled(Button) ({
   width: "100%",
+  height: "50px",
   color: "#19343C",
+  fontSize: "18px",
   backgroundColor: "transparent",
   border: "#19343C 1px solid",
   '&:hover': {

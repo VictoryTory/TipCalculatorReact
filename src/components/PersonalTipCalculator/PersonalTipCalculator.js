@@ -32,14 +32,16 @@ function calculateTip(personValue, billValue, tipValue) {
 }
 
 function totalPerPerson (billValue, personValue, tipPerPerson) {
-  return (billValue / personValue) + tipPerPerson ;
+  if (billValue && personValue) {
+    return (billValue / personValue) + tipPerPerson;
+  }
 }
 
 export function PersonalTipCalculator() {
   const [billValue, setBillValue] = useState(0);
   const [personValue, setPersonValue] = useState(0);
   const [tipValue, setTipValue ] = useState(0);
-  const [isTipSelected, setIsTipSelected] = useState(false);
+  const [TipValueInput, setTipValueInput] = useState(0);
   const tipPerPerson = calculateTip(personValue, billValue, tipValue);
   const totalPerPersonResult = totalPerPerson (billValue, personValue, tipPerPerson) || 0;
 
@@ -47,6 +49,7 @@ export function PersonalTipCalculator() {
     setBillValue(0);
     setPersonValue(0);
     setTipValue(0);
+    setTipValueInput(0);
   };
 
     return (

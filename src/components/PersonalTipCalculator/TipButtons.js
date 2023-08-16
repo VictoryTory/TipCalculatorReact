@@ -43,9 +43,8 @@ export function TipButtons(props) {
           id="custom-tip"
           // type="number"
           label="Custom"
-          onChange={(e) => props.onChange(Number(e.target.value))}
+          onChange={(e) => props.onChange(e.target.value)}
           sx={{height: '53px',}}
-          pseudo="none"
         />
       </Stack>
     </div>
