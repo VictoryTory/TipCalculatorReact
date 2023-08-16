@@ -1,0 +1,12 @@
+{
+  "files": {
+    "main.js": "/TipCalculatorReact/static/js/main.ee56c84c.js",
+    "static/js/787.3f0c5d0e.chunk.js": "/TipCalculatorReact/static/js/787.3f0c5d0e.chunk.js",
+    "index.html": "/TipCalculatorReact/index.html",
+    "main.ee56c84c.js.map": "/TipCalculatorReact/static/js/main.ee56c84c.js.map",
+    "787.3f0c5d0e.chunk.js.map": "/TipCalculatorReact/static/js/787.3f0c5d0e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.ee56c84c.js"
+  ]
+}
